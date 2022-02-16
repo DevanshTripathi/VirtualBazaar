@@ -1,0 +1,110 @@
+﻿.top {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 6px;
+    background-color: white;
+    clear: none;
+    border-bottom:2px solid black;
+    margin: 4px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+
+
+#banner {
+    background-image: url("https://s3.amazonaws.com/thinkific/courses/course_card_image_000/331/9311533714926.original.jpg?1533714926");
+    background-blend-mode:soft-light;
+    background-size: cover;
+    background-position: bottom center;
+    height: 400px;
+    width: 100%;
+    opacity:0.3;
+    animation-name:example;
+}
+
+h1{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    width: flex;
+    margin: 0 auto;
+    font-family: 'Ink Free';
+    font-weight: 600;
+}
+
+
+
+
+
+.quote {
+    background-image: url("https://th.bing.com/th/id/OIP.EA4A-QSjg8AcCLRfAWu7VAAAAA?pid=ImgDet&rs=1");
+    background-size: cover;
+    background-position: bottom center;
+    background-blend-mode: lighten;
+    height: 400px;
+    width: 100%;
+    opacity: 0.3;
+    animation-name: example;
+}
+
+    .quote p {
+        position: relative;
+        top: 100px;
+        width: flex;
+        margin: 0 auto;
+        font-size: 35px;
+        font-family: 'Ink Free';
+        font-weight: 600;
+        text-align:center;
+    }
+
+.promo {
+    background-image: url("https://media.istockphoto.com/vectors/wireframed-hole-vector-abstract-digital-background-3d-tunnel-grid-3d-vector-id1146891284?k=6&m=1146891284&s=612x612&w=0&h=6aD9_ppfzqbMFcbtLOKUyuC6tRdsuj4U__1tCD3G2bo=");
+    background-size: cover;
+    background-position: bottom center;
+    background-blend-mode: lighten;
+    height: 400px;
+    width: 100%;
+    opacity: 0.3;
+    animation-name: example;
+}
+
+.promo p {
+        position: relative;
+        top: 100px;
+        width: flex;
+        margin: 0 auto;
+        font-size: 35px;
+        font-family: 'Ink Free';
+        font-weight: 600;
+        text-align: center;
+    }
+
+h6 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Goudy Old Style';
+    height: 150px;
+    padding: 20px 20px;
+    color: white;
+    background-color: black;
+}
+
+
+@keyframes example {
+    from {
+        font-weight:100;
+    }
+
+    to {
+        font-weight:800;
+    }
+}
